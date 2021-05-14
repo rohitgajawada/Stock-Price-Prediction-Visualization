@@ -1,0 +1,59 @@
+.App {
+	text-align: center;
+}
+
+.title-container {
+	display: flex;
+	justify-content: center;
+	background-color: #3f4d67;
+}
+
+.title {
+	color: white;
+	font-size: calc(10px + 2vmin);
+}
+
+.sidebar-header {
+	margin-top: 15px;
+}
+
+.left-half {
+	text-align: center;
+	float: left;
+	width: 15%;
+	color: black;
+	overflow: hidden;
+	box-shadow: 10px 0 5px -2px #888;
+}
+
+.right-half {
+	text-align: left;
+	float: right;
+	height: 100vh;
+	width: 85%;
+	color: black;
+	overflow: auto;
+}
+
+.pro-sidebar-layout {
+	background-color: #025955;
+}
+
+.pro-sidebar-inner {
+	color: white;
+}
+
+.pro-sidebar-header {
+	font-size: 40px;
+	margin-left: 10px;
+}
+
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout .pro-sidebar-header {
+	border-bottom: 0px solid rgba(173, 173, 173, 0.2);
+	font-weight: 700;
+}
+
+.pro-item-content {
+	font-size: 14px;
+	margin-top: 10px;
+}

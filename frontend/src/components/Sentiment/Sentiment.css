@@ -1,0 +1,36 @@
+.title-container,
+.button-container,
+.graph-container,
+.desc-container,
+.loading-container {
+	display: flex;
+	justify-content: center;
+}
+div.tooltip {
+	position: absolute;
+	text-align: left;
+	padding: 1.5rem;
+	padding-left: 1rem;
+	background: rgb(29, 161, 242);
+	color: white;
+	border-radius: 10px;
+	pointer-events: none;
+	font-size: 12px;
+	width: 20%;
+}
+.title-container {
+	margin-top: 20px;
+	background-color: white;
+}
+.loading-container {
+	margin-top: 50px;
+}
+.text-form-control {
+	width: 50%;
+}
+
+.popover-container {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 20px;
+}

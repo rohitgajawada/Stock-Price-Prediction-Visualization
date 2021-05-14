@@ -1,0 +1,74 @@
+path.line {
+	fill: none;
+	stroke: #000;
+}
+
+pre {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+
+.tg {
+	border-collapse: collapse;
+	border-color: #bbb;
+	border-spacing: 0;
+	margin-top: 20px;
+}
+.tg td {
+	background-color: #e0ffeb;
+	border-color: #bbb;
+	border-style: solid;
+	border-width: 1px;
+	color: #594f4f;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+.tg th {
+	background-color: #9de0ad;
+	border-color: #bbb;
+	border-style: solid;
+	border-width: 1px;
+	color: #493f3f;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	overflow: hidden;
+	padding: 10px 5px;
+	word-break: normal;
+}
+.tg .tg-0lax {
+	text-align: center;
+	vertical-align: top;
+}
+.tg .tg-sjuo {
+	background-color: #c2ffd6;
+	text-align: center;
+	vertical-align: top;
+}
+
+.y-axis {
+	z-index: 100;
+}
+
+.dropdown-container,
+.desc-container,
+.title-container,
+.page-desc-container,
+.loading-container,
+.desc2-container {
+	display: flex;
+	justify-content: center;
+}
+
+.desc2,
+.desc {
+	width: 60%;
+	text-align: center;
+}
+
+.loading-container {
+	margin-top: 50px;
+}
